@@ -21,6 +21,11 @@ body{
     margin: auto;
 }
 
+.w-65{
+    width: 65%;
+    margin: auto;
+}
+
 .h-100{
     height: 100%;
 }
@@ -46,6 +51,22 @@ body{
     line-height: 35px;
     text-align: center;
     padding: 0 20px
+}
+
+h1{
+    font-size: 60px;
+}
+
+h2{
+    font-size: 35px;
+}
+
+.column{
+    width: calc((100% / 3) - 30px);
+}
+
+.column.center{
+    margin: 0 45px;
 }
 /* FINE GENERALE */
 
@@ -85,27 +106,27 @@ nav ul.dx li{
 header .jumbo{
     background-color: #B4D0E7;
     max-height: 580px;
+    padding-top: 90px;
 }
 
-h1{
-    font-size: 60px;
-    padding: 90px 0 30px 0;
+.jumbo h1{
+    margin-bottom: 30px;
 }
 
-.jumbo .column.f-left{
+.jumbo .f-left{
     width: 40%;
     padding-right: 50px;
 }
 
-.jumbo .column.f-right{
+.jumbo .f-right{
     width: 60%;
 }
 
-.column.f-left p{
+.jumbo .f-left p{
     margin-bottom: 30px;
 }
 
-.column.f-left .button{
+.jumbo .f-left .button{
     margin-bottom: 10px;
 }
 
@@ -114,6 +135,30 @@ h1{
 }
 /* FINE jumbo */
 /* FINE header */
+
+/* INIZIO main */
+main h2{
+    margin-bottom: 30px;
+}
+
+/* INIZIO sezione piano di fatturazione */
+section.piano{
+    padding-top: 150px;
+}
+
+.fatturazione{
+    margin-bottom: 30px;
+}
+
+section.piano .column{
+    margin-bottom: 30px;
+}
+
+section.piano .contatta-ufficio{
+    margin-bottom: 150px;
+}
+/* FINE sezione piano di fatturazione */
+/* FINE main */
 
 /* DEBUG */
 .debug .w-80{
@@ -129,8 +174,27 @@ h1{
     border: 1px solid black;
 }
 
+.debug .jumbo .f-left, .debug .jumbo .f-right{
+    background-color: crimson;
+    border: 1px solid black;
+}
+
 .debug .column{
     background-color: cornflowerblue;
     border: 1px solid black;
+    height: 300px;
+}
+
+.debug section.piano{
+    background-color: gray;
+}
+
+.debug .fatturazione{
+    background-color: coral;
+}
+
+.debug .contatta-ufficio{
+    background-color: coral;
+    height: 200px;
 }
 /* FINE DEBUG */
