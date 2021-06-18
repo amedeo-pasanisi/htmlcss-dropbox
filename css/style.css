@@ -36,6 +36,14 @@ body{
     float: left;
 }
 
+.button{
+    background-color: royalblue;
+    color: white;
+    display: inline-block;
+    line-height: 35px;
+    text-align: center;
+    padding: 0 20px
+}
 /* FINE GENERALE */
 
 /* INIZIO header */
@@ -52,7 +60,7 @@ nav ul.dx, nav ul.sx{
 /* INIZIO jumbo */
 header .jumbo{
     background-color: #B4D0E7;
-    height: 550px;
+    max-height: 630px;
 }
 
 h1{
@@ -71,6 +79,14 @@ h1{
 
 .column.f-left p{
     margin-bottom: 30px;
+}
+
+.column.f-left .button{
+    margin-bottom: 10px;
+}
+
+.fa-arrow-down{
+    font-size: 30px;
 }
 /* FINE jumbo */
 /* FINE header */
