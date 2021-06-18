@@ -9,6 +9,10 @@ body{
     font-family: 'Open Sans', sans-serif;
 }
 
+.w-100{
+    width: 100%;
+}
+
 .w-80{
     width: 80%;
     margin: auto;
@@ -48,7 +52,7 @@ nav ul.dx, nav ul.sx{
 /* INIZIO jumbo */
 header .jumbo{
     background-color: #B4D0E7;
-    height: 600px;
+    height: 550px;
 }
 
 h1{
@@ -58,12 +62,15 @@ h1{
 
 .jumbo .column.f-left{
     width: 40%;
-    height: 300px;
+    padding-right: 50px;
 }
 
 .jumbo .column.f-right{
     width: 60%;
-    height: 400px;
+}
+
+.column.f-left p{
+    margin-bottom: 30px;
 }
 /* FINE jumbo */
 /* FINE header */
