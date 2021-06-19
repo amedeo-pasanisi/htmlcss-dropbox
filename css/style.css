@@ -63,10 +63,12 @@ h2{
 
 .column3{
     width: calc((100% / 3) - 30px);
+    margin-bottom: 45px;
 }
 
 .column3.center{
-    margin: 0 45px;
+    margin-right: 45px;
+    margin-left: 45px;
 }
 
 img{
@@ -144,17 +146,14 @@ main h2{
     margin-bottom: 30px;
 }
 
-/* INIZIO sezione piano di fatturazione */
+/* INIZIO sezione 1: piano di fatturazione */
 section.piano{
     padding-top: 150px;
+    margin-bottom: 150px;
 }
 
 .fatturazione{
     margin-bottom: 30px;
-}
-
-section.piano .column3.f-left{
-    margin-bottom: 45px;
 }
 
 section.piano .contatta-ufficio{
@@ -169,7 +168,26 @@ section.piano .f-right{
     width: 50%;
     height: 300px;
 }
-/* FINE sezione piano di fatturazione */
+/* FINE sezione 1: piano di fatturazione */
+
+/* INIZIO sezione 2: operazioni */
+section.operazioni{
+    margin-bottom: 100px;
+}
+/* FINE sezione 2: operazioni */
+
+/* INIZIO sezione 3: teams */
+section.teams .f-left, section.teams .f-right{
+    width: 400px;
+    height: 400px;
+}
+
+section.teams .f-left.center{
+    width: calc(100% - 800px);
+    height: 400px;
+    background-color: lightgray;
+}
+/* FINE sezione 3: teams */
 /* FINE main */
 
 /* DEBUG */
@@ -193,7 +211,7 @@ section.piano .f-right{
     height: 300px;
 }
 
-.debug section.piano{
+.debug .w-65{
     background-color: gray;
 }
 
@@ -204,5 +222,9 @@ section.piano .f-right{
 .debug .contatta-ufficio{
     background-color: coral;
     height: 200px;
+}
+
+.debug .teams{
+    background-color: burlywood;
 }
 /* FINE DEBUG */
