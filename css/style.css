@@ -61,12 +61,16 @@ h2{
     font-size: 35px;
 }
 
-.column{
+.column3{
     width: calc((100% / 3) - 30px);
 }
 
-.column.center{
+.column3.center{
     margin: 0 45px;
+}
+
+img{
+    vertical-align: middle;
 }
 /* FINE GENERALE */
 
@@ -85,7 +89,6 @@ nav li{
 }
 
 nav ul.sx img{
-    vertical-align: middle;
     padding-bottom: 10px;
 }
 
@@ -150,12 +153,21 @@ section.piano{
     margin-bottom: 30px;
 }
 
-section.piano .column{
-    margin-bottom: 30px;
+section.piano .column3.f-left{
+    margin-bottom: 45px;
 }
 
 section.piano .contatta-ufficio{
     margin-bottom: 150px;
+}
+
+section.piano .image.f-left{
+    width: 50%;
+}
+
+section.piano .f-right{
+    width: 50%;
+    height: 300px;
 }
 /* FINE sezione piano di fatturazione */
 /* FINE main */
@@ -169,19 +181,15 @@ section.piano .contatta-ufficio{
     background-color: lime;
 }
 
-.debug nav ul.dx,.debug nav ul.sx{
+.f-left{
     background-color: red;
-    border: 1px solid black;
 }
 
-.debug .jumbo .f-left, .debug .jumbo .f-right{
-    background-color: crimson;
-    border: 1px solid black;
+.f-right{
+    background-color: blue;
 }
 
-.debug .column{
-    background-color: cornflowerblue;
-    border: 1px solid black;
+.debug .column3{
     height: 300px;
 }
 
