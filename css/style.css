@@ -231,6 +231,31 @@ section.faq>h4{
 /* FINE sezione 5: faq */
 /* FINE main */
 
+/* INIZIO footer */
+footer{
+    background-color: black;
+    color: white;
+    padding-top: 100px;
+}
+
+footer .f-left{
+    width: calc(100% / 5);
+    height: 300px;
+    border: 2px solid white;
+    margin-bottom: 100px;
+}
+
+footer .lingua{
+    border-top: 2px solid gray;
+    color: gray;
+    line-height: 100px;
+    font-size: 12px;
+    width: 150px;
+    height: 100px;
+}
+
+/* FINE footer */
+
 /* DEBUG */
 .debug .w-80{
     background-color: lightgray;
@@ -267,5 +292,9 @@ section.faq>h4{
 
 .debug .teams{
     background-color: burlywood;
+}
+
+.debug footer .lingua{
+    background-color: lightgreen;
 }
 /* FINE DEBUG */
