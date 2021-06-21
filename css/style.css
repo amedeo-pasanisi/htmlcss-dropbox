@@ -62,7 +62,7 @@ h2{
 }
 
 h3{
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .column3{
@@ -77,6 +77,14 @@ h3{
 
 img{
     vertical-align: middle;
+}
+
+.border-gray{
+    border: 1px solid lightgray;
+}
+
+.color-gray{
+    color: gray;
 }
 /* FINE GENERALE */
 
@@ -152,7 +160,7 @@ main h2{
 }
 
 /* INIZIO sezione 1: piano di fatturazione */
-section.piano{
+section#piano{
     padding-top: 150px;
     margin-bottom: 150px;
 }
@@ -166,7 +174,7 @@ section.piano{
     margin-right: 20px;
 }
 
-section.piano .cerchio{
+section#piano .cerchio{
     display: inline-block;
     width: 20px;
     height: 20px;
@@ -175,30 +183,46 @@ section.piano .cerchio{
     margin-bottom: 5px;
 }
 
-section.piano .cerchio.selezionato{
+section#piano .cerchio.selezionato{
     border: 5px solid royalblue;
 }
 
-section.piano .cerchio.deselezionato{
-    border: 1px solid lightgray;
+section#piano .top{
+    text-align: center;
+    padding: 10px 0;
+    border-bottom: 1px solid lightgray;
+    margin-bottom: 20px;
 }
 
-section.piano .contatta-ufficio{
+section#piano .bottom{
+    padding: 15px;
+    font-size: 11px;
+}
+
+#button{
+    background-color: royalblue;
+    color: white;
+    line-height: 35px;
+    text-align: center;
+    padding: 0 20px
+}
+
+section#piano .contatta-ufficio{
     margin-bottom: 150px;
 }
 
-section.piano .image.f-left{
+section#piano .image.f-left{
     width: 50%;
 }
 
-section.piano .f-right{
+section#piano .f-right{
     width: 50%;
-    height: 300px;
+    padding: 30px;
 }
 /* FINE sezione 1: piano di fatturazione */
 
 /* INIZIO sezione 2: operazioni */
-section.operazioni{
+section#operazioni{
     margin-bottom: 100px;
 }
 /* FINE sezione 2: operazioni */
