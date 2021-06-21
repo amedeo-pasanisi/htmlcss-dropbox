@@ -114,8 +114,8 @@ nav ul.dx li{
 /* INIZIO jumbo */
 header .jumbo{
     background-color: #B4D0E7;
-    max-height: 580px;
     padding-top: 90px;
+    margin-bottom: -80px;
 }
 
 .jumbo h1{
@@ -129,6 +129,7 @@ header .jumbo{
 
 .jumbo .f-right{
     width: 60%;
+    margin-bottom: -50px;
 }
 
 .jumbo .f-left p{
@@ -181,6 +182,10 @@ section.operazioni{
 /* FINE sezione 2: operazioni */
 
 /* INIZIO sezione 3: teams */
+section.teams .w-65{
+    margin-bottom: 40px;
+}
+
 section.teams .f-left, section.teams .f-right{
     width: 400px;
     height: 400px;
@@ -189,13 +194,12 @@ section.teams .f-left, section.teams .f-right{
 section.teams .f-left.center{
     width: calc(100% - 800px);
     height: 400px;
-    background-color: lightgray;
+    background-color: rgb(230, 230, 230);
 }
 
 section.teams>.f-left>.f-left, section.teams>.f-right>.f-right{
     width: 50%;
     height: 50%;
-    border: 1px solid black;
 }
 /* FINE sezione 3: teams */
 
@@ -241,7 +245,6 @@ footer{
 footer .f-left{
     width: calc(100% / 5);
     height: 300px;
-    border: 2px solid white;
     margin-bottom: 100px;
 }
 
@@ -265,11 +268,11 @@ footer .lingua{
     background-color: lime;
 }
 
-.f-left{
+.debug .f-left{
     background-color: red;
 }
 
-.f-right{
+.debug .f-right{
     background-color: blue;
 }
 
@@ -293,6 +296,15 @@ footer .lingua{
 .debug .teams{
     background-color: burlywood;
 }
+
+.debug section.teams>.f-left>.f-left, .debug section.teams>.f-right>.f-right{
+    border: 1px solid black;
+}
+
+.debug footer .f-left{
+    border: 2px solid white;
+}
+
 
 .debug footer .lingua{
     background-color: lightgreen;
