@@ -187,13 +187,13 @@ section.teams .w-65{
 }
 
 section.teams .f-left, section.teams .f-right{
-    width: 400px;
-    height: 400px;
+    width: 30vw;
+    height: 30vw;
 }
 
 section.teams .f-left.center{
-    width: calc(100% - 800px);
-    height: 400px;
+    width: calc(100% - 60vw);
+    height: 30vw;
     background-color: rgb(230, 230, 230);
 }
 
