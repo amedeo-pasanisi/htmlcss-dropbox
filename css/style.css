@@ -159,6 +159,28 @@ section.piano{
 
 .fatturazione{
     margin-bottom: 30px;
+    line-height: 30px;
+}
+
+.fatturazione span{
+    margin-right: 20px;
+}
+
+section.piano .cerchio{
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    vertical-align: middle;
+    margin-bottom: 5px;
+}
+
+section.piano .cerchio.selezionato{
+    border: 5px solid royalblue;
+}
+
+section.piano .cerchio.deselezionato{
+    border: 1px solid lightgray;
 }
 
 section.piano .contatta-ufficio{
