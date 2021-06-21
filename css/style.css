@@ -30,6 +30,21 @@ body{
     height: 100%;
 }
 
+.h-50{
+    height: 50%;
+}
+
+.h-10{
+    height: 10%;
+}
+
+.centratura{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .clearfix::after{
     content: "";
     display: table;
@@ -47,7 +62,6 @@ body{
 .button{
     background-color: royalblue;
     color: white;
-    display: inline-block;
     line-height: 35px;
     text-align: center;
     padding: 0 20px
@@ -81,6 +95,12 @@ img{
 
 .border-gray{
     border: 1px solid lightgray;
+}
+
+.bordino-grigio{
+    border: 1px solid lightgray;
+    width: 50px;
+    margin: 30px 0;
 }
 
 .color-gray{
@@ -199,14 +219,6 @@ section#piano .bottom{
     font-size: 11px;
 }
 
-#button{
-    background-color: royalblue;
-    color: white;
-    line-height: 35px;
-    text-align: center;
-    padding: 0 20px
-}
-
 section#piano .contatta-ufficio{
     margin-bottom: 150px;
 }
@@ -215,7 +227,7 @@ section#piano .image.f-left{
     width: 50%;
 }
 
-section#piano .f-right{
+section#piano>.f-right:last-child{
     width: 50%;
     padding: 30px;
 }
@@ -228,55 +240,99 @@ section#operazioni{
 /* FINE sezione 2: operazioni */
 
 /* INIZIO sezione 3: teams */
-section.teams .w-65{
+section#teams .w-65{
     margin-bottom: 40px;
 }
 
-section.teams .f-left, section.teams .f-right{
+section#teams .f-left, section#teams .f-right{
     width: 30vw;
     height: 30vw;
 }
 
-section.teams .f-left.center{
+section#teams .f-left.center{
     width: calc(100% - 60vw);
     height: 30vw;
     background-color: rgb(230, 230, 230);
+    padding: 50px;
 }
 
-section.teams>.f-left>.f-left, section.teams>.f-right>.f-right{
+section#teams .f-left.center div:last-child{
+    margin-top: 50px;
+}
+
+section#teams>.f-left>.f-left, section#teams>.f-right>.f-right{
     width: 50%;
     height: 50%;
+    position: relative;
+}
+
+.bg1-sx{
+    background-color: #A2D39B;
+}
+
+.bg2-sx{
+    background-color: #61082B;
+}
+
+.bg3-sx{
+    background-color: #0093CE;
+}
+
+.bg4-sx{
+    background-color: #FF1C1C;
+}
+
+.bg1-dx{
+    background-color: #B4D0E7;
+}
+
+.bg2-dx{
+    background-color: #D5001F;
+}
+
+.bg3-dx{
+    background-color: #FFD830;
+}
+
+.bg4-dx{
+    background-color: #0D2481;
 }
 /* FINE sezione 3: teams */
 
 /* INIZIO sezione 4: prova */
-section.prova{
+section#prova{
     background-color: #B4D0E7;
     margin-bottom: 150px;
 }
 
-section.prova>.w-65{
+section#prova>.w-65{
     padding: 150px 0;
 }
 
-section.prova h2{
+section#prova h2{
     color: #61082B;
 }
 /* FINE sezione 4: prova */
 
 /* INIZIO sezione 5: faq */
-section.faq{
+section#faq{
     margin-bottom: 150px;
 }
 
-section.faq h3{
+section#faq h3{
     padding-bottom: 50px;
     border-bottom: 2px solid lightgray;
 }
 
-section.faq>h4{
+section#faq>h4{
     padding: 30px 0;
     border-bottom: 2px solid lightgray;
+    position: relative;
+}
+
+section#faq i{
+    position: absolute;
+    right: 30px;
 }
 /* FINE sezione 5: faq */
 /* FINE main */

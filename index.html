@@ -50,12 +50,16 @@
     <main>
         <section id="piano" class="w-65 clearfix">
             <h2>Trova il piano Dropbox Busines che fa per te</h2>
+
+            <!-- imitazione dei "radio button" -->
             <div class="fatturazione">
                 <div class="cerchio selezionato"></div>
                 <span>Fatturazione annuale</span>
                 <div class="cerchio border-gray"></div>
                 <span>Fatturazione mensile</span>
             </div>
+            
+            <!-- 3 colonne con informazioni dei piani di fatturazione -->
             <div class="clearfix">
                 <div class="column3 f-left border-gray">
                     <div class="top">
@@ -74,7 +78,7 @@
                         <br>
                         <i class="fas fa-pencil-alt"></i>
                         <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
-                        <div id="button">Prova gratis per 30 giorni</div>
+                        <div class="button">Prova gratis per 30 giorni</div>
                         <a href="#">oppure acquista ora</a>
                         <h4>Punti salienti del piano</h4>
                         <ul>
@@ -103,7 +107,7 @@
                         <br>
                         <i class="fas fa-pencil-alt"></i>
                         <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
-                        <div id="button">Prova gratis per 30 giorni</div>
+                        <div class="button">Prova gratis per 30 giorni</div>
                         <a href="#">oppure acquista ora</a>
                         <h4>Punti salienti del piano</h4>
                         <ul>
@@ -132,7 +136,7 @@
                         <br>
                         <i class="fas fa-pencil-alt"></i>
                         <span>Lorem ipsum dolor, sit amet consectetur adipisicing elit.</span>
-                        <div id="button">Prova gratis per 30 giorni</div>
+                        <div class="button">Prova gratis per 30 giorni</div>
                         <a href="#">oppure acquista ora</a>
                         <h4>Punti salienti del piano</h4>
                         <ul>
@@ -144,17 +148,22 @@
                     </div>
                 </div>
             </div>
+
+            <!-- box, sotto le 3 colonne, con bottone contatti ufficio vendite-->
             <div class="contatta-ufficio border-gray">
                 <div class="top">
                     <i class="fas fa-users"></i>
                     <span>Team</span>
                 </div>
                 <div class="bottom">
+                    <div class="button f-right">Contatta l'ufficio vendite</div>
                     <h3>Enterprise</h3>
                     <h4>Contatta l'uffico vendite per i prezzi</h4>
                     <div>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Veniam assumenda maiores perspiciatis</div>
                 </div>
             </div>
+
+            <!-- fine sezione "piano": immagine con, affiancati, testo e bottone -->
             <div class="image f-left">
                 <img class="w-100" src="img/partner.png" alt="">
             </div>
@@ -167,6 +176,9 @@
 
         <section id="operazioni" class="w-65 clearfix">
             <h2>Esegui più operazioni con Dropbox Business</h2>
+
+            <!-- ogni div è una card con all'interno
+                una immagine (width 100%), un sottotitolo e del testo -->
             <div class="column3 f-left">
                 <img class="w-100" src="img/business-feature-switching-tools.png" alt="">
                 <h3>Passa di meno da uno strumento all'altro</h3>
@@ -199,43 +211,69 @@
             </div>
         </section>
 
-        <section class="teams clearfix">
+        <section id="teams" class="clearfix">
             <div class="w-65">
                 <h2>Più di 500.000 team <br> utilizzano Dropbox Business</h2>
                 <a href="#">Scopri di più sui nostri clienti</a>
             </div>
+
+            <!-- quadrati colorati di DESTRA con loghi centrati -->
             <div class="f-left">
-                <div class="f-left">
-                    
+                <div class="f-left bg1-sx">
+                    <img class="w-65 centratura" src="img/designit.svg" alt="">
                 </div>
-                <div class="f-left">
-                    
+                <div class="f-left bg2-sx">
+                    <img class="w-65 centratura" src="img/arizona_state_university.svg" alt="">
                 </div>
-                <div class="f-left"></div>
-                <div class="f-left"></div>
+                <div class="f-left bg3-sx">
+                    <img class="w-65 centratura" src="img/university_of_florida.svg" alt="">
+                </div>
+                <div class="f-left bg4-sx">
+                    <img class="w-65 centratura" src="img/topps.svg" alt="">
+                </div>
             </div>
-            <div class="f-left center"></div>
+
+            <!-- spazio grigio CENTRALE -->
+            <div class="f-left center">
+                <div class="h-10">
+                    <img class="h-100" src="img/designit.svg" alt="">
+                </div>
+                <div class="bordino-grigio"></div>
+                <div>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil, officia! Aliquam rem, neque labore illum eveniet excepturi, laboriosam dolorum inventore error eaque voluptas doloribus repudiandae suscipit autem tempora distinctio debitis!</div>
+                <div>Lorem ipsum dolor sit amet consectetur</div>
+            </div>
+
+            <!-- quadrati colorati di SINISTRA con loghi centrati -->
             <div class="f-right">
-                <div class="f-right"></div>
-                <div class="f-right"></div>
-                <div class="f-right"></div>
-                <div class="f-right"></div>
+                <div class="f-right bg1-dx">
+                    <img class="w-65 centratura" src="img/world_bicycle_relief.svg" alt="">
+                </div>
+                <div class="f-right bg2-dx">
+                    <img class="w-65 centratura" src="img/hearst_corp.svg" alt="">
+                </div>
+                <div class="f-right bg3-dx">
+                    <img class="w-65 centratura" src="img/lonely_planet.svg" alt="">
+                </div>
+                <div class="f-right bg4-dx">
+                    <img class="w-65 centratura" src="img/clear_channel.svg" alt="">
+                </div>
             </div>
         </section>
 
-        <section class="prova">
+        <section id="prova">
+            <!-- non c'è molto da commentare -->
             <div class="w-65 clearfix">
                 <h2 class="w-65 f-left">Porta Dropbox Business nella tua azienda</h2>
                 <div class="button f-right">Inizia la tua prova gratuita</div>
             </div>
         </section>
 
-        <section class="faq w-65">
+        <section id="faq" class="w-65">
             <h3>Domande frequenti</h3>
-            <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
-            <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
-            <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
-            <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced?</h4>
+            <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i class="fas fa-chevron-down"></i></h4>
+            <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i class="fas fa-chevron-down"></i></h4>
+            <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i class="fas fa-chevron-down"></i></h4>
+            <h4>Qual'è la differenza tra Dropbox Business Standard e Dropbox Business Advanced? <i class="fas fa-chevron-down"></i></h4>
         </section>
     </main>
     <footer>
