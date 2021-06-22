@@ -118,6 +118,18 @@ img{
 .color-gray{
     color: gray;
 }
+
+.display-none{
+    display: none;
+}
+
+.hover:hover + .display-none{
+    display: block;
+}
+
+.hover:hover>.display-none{
+    display: block;
+}
 /* FINE GENERALE */
 
 /* INIZIO header */
@@ -156,14 +168,6 @@ nav ul.dx>li{
 
 nav>ul.dx>li:first-child{
     width: 60px;
-}
-
-ul.display-none{
-    display: none;
-}
-
-.hover:hover+ul.display-none{
-    display: block;
 }
 
 nav li.f-right{
@@ -396,6 +400,17 @@ section#faq>h4{
     padding: 30px 0;
     border-bottom: 2px solid lightgray;
     position: relative;
+}
+
+section#faq>h4:hover{
+    border-bottom: 0
+}
+
+#faq div{
+    font-weight: 500;
+    margin-top: 50px;
+    border-bottom: 2px solid lightgray;
+    padding-bottom: 30px;
 }
 
 section#faq i{
