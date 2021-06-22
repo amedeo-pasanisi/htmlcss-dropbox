@@ -7,6 +7,10 @@
 }
 
 /* GENERALE */
+html{
+    scroll-behavior: smooth;
+}
+
 body{
     font-family: 'Open Sans', sans-serif;
     font-size: 14px;
@@ -158,9 +162,8 @@ ul.display-none{
     display: none;
 }
 
-nav .hover:hover + ul.display-none{
+.hover:hover+ul.display-none{
     display: block;
-    background-color: lightgreen;
 }
 
 nav li.f-right{
@@ -203,6 +206,10 @@ header .jumbo{
 
 .fa-arrow-down{
     font-size: 30px;
+}
+
+.jumbo a{
+    color: black;
 }
 /* FINE jumbo */
 /* FINE header */
