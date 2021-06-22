@@ -341,6 +341,11 @@ section#prova>.w-65{
     padding: 150px 0;
 }
 
+section#prova .button{
+    color: black;
+    background-color: white;
+}
+
 section#prova h2{
     color: #61082B;
 }
