@@ -120,7 +120,11 @@ img{
 /* INIZIO header */
 /* INIZIO nav */
 header nav{
+    position: fixed;
     height: 80px;
+    width: 100%;
+    background-color: white;
+    top: 0;
 }
 
 nav ul.dx, nav ul.sx{
