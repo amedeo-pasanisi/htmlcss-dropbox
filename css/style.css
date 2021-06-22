@@ -62,14 +62,13 @@ body{
 .button{
     background-color: royalblue;
     color: white;
-    display: inline-block;
     line-height: 35px;
     text-align: center;
     padding: 0 20px
 }
 
-.block{
-    display: block;
+.inline-block{
+    display: inline-block;
 }
 
 h1{
@@ -132,7 +131,7 @@ nav ul.dx, nav ul.sx{
 }
 
 nav li{
-    display: inline;
+    display: inline-block;
 }
 
 nav ul.sx img{
@@ -147,8 +146,29 @@ nav ul.dx{
     text-align: right;
 }
 
-nav ul.dx li{
+nav ul.dx>li{
     margin-right: 30px;
+}
+
+nav>ul.dx>li:first-child{
+    width: 60px;
+}
+
+ul.display-none{
+    display: none;
+}
+
+nav .hover:hover + ul.display-none{
+    display: block;
+    background-color: lightgreen;
+}
+
+nav li.f-right{
+    line-height: 50px;
+    width: 100%;
+    text-align: center;
+    background-color: white;
+    border: 2px solid lightgray;
 }
 /* FINE nav */
 
