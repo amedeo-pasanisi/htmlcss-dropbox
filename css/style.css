@@ -254,6 +254,7 @@ section#teams .f-left.center{
     height: 30vw;
     background-color: rgb(230, 230, 230);
     padding: 50px;
+    overflow-y: auto;
 }
 
 section#teams .f-left.center div:last-child{
@@ -264,6 +265,10 @@ section#teams>.f-left>.f-left, section#teams>.f-right>.f-right{
     width: 50%;
     height: 50%;
     position: relative;
+}
+
+section#teams .centratura{
+    filter: invert(1);
 }
 
 .bg1-sx{
